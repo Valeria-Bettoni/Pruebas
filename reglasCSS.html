@@ -4,27 +4,35 @@
 <head>
     <title>Class, span, div</title>
     <style>
-        h1 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             background-color: darkolivegreen;
             text-indent: 2%;
-            color:whitesmoke;
-        font-size: 300%;}
+            color: whitesmoke;
+            font-size: 300%;
+        }
 
-        h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color:darkolivegreen;
+        h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: darkolivegreen;
             text-indent: 3%;
-            font-size:220%;}
+            font-size: 220%;
+        }
 
-        h3 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color:darkolivegreen;
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: darkolivegreen;
             text-indent: 3%;
-            font-size:205%;}
-        
-        p.cuadro {background-color:darkgreen;
-                color:white;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: larger;
-                text-indent: 3%;}
+            font-size: 205%;
+        }
+
+        p.cuadro {
+            background-color: darkgreen;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+            text-indent: 3%;
+        }
     </style>
 </head>
 
@@ -37,7 +45,8 @@
         <article>
             <h2>* Etiqueta &lt;span&gt;</h2>
             <div>
-                <p class="cuadro">La etiqueta <span style="color:lightgreen">&lt;span&gt;</span> es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.</p>
+                <p class="cuadro">La etiqueta <span style="color:lightgreen">&lt;span&gt;</span> es un contenedor en
+                    línea que se utiliza para marcar una parte de un texto o una parte de un documento.</p>
             </div>
 
             <h2>* Reglas CSS</h2>
@@ -45,11 +54,13 @@
                 <p>Las partes que componen los estilos de CSS son:</p>
                 <ul style="circle">
                     <li><b>Selector</b>: Indica los elementos HTML a los que se aplica la regla.</li>
-                    <li><b>Declaracion</b>: (propiedad + valor) Especifica los estilos que se aplican a los elementos.</li>
+                    <li><b>Declaracion</b>: (propiedad + valor) Especifica los estilos que se aplican a los elementos.
+                    </li>
                     <li><b>Propiedad</b>: Permite modificar el aspecto de una caracteristica del elemento.</li>
                     <li><b>Valor</b>: Indica el nuevo valor de la caracteristica modificada en el elemento.</li>
                 </ul>
-                <img src="https://lh5.googleusercontent.com/ACyXP6czzrh-r1CIsomrWpug4Svd_gPfYwMLPs_huPN1Zq5vDzpLpNZTYPVqFC0rP5n6RK53Bfpq489Jto6KXG_-JzSBcTS68H_a4O7wSrtDw7_CDBLvA0B9g1yo2IZnznh8TV8=s0" alt="imagen explicativa" width=40%>
+                <img src="https://lh5.googleusercontent.com/ACyXP6czzrh-r1CIsomrWpug4Svd_gPfYwMLPs_huPN1Zq5vDzpLpNZTYPVqFC0rP5n6RK53Bfpq489Jto6KXG_-JzSBcTS68H_a4O7wSrtDw7_CDBLvA0B9g1yo2IZnznh8TV8=s0"
+                    alt="imagen explicativa" width=40%>
             </div>
         </article>
 
@@ -57,10 +68,94 @@
             <h3> Selectores</h3>
             <div style="font-size:larger; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
                 <ul style="square">
-                    <li><u>Selector universal *</u>: Se utiliza para seleccionar todos los elementos de la página</li><br>
-                    <img src="https://lh3.googleusercontent.com/JV8NDGgecEV50w3xFXMEwLGhUbiJXfnxM8bNNjoORCCY6X2iaCVI0ANWkJldX_tqvHdpTpl3h8zInMo_KwD7VAwnrycL_5LEKwphTQ3bHpUQ45e1NtMDG2h9coeOdUYLFBpgmYs=s0" alt="selector universal">
-                    <li><u>Selector de tipo o etiqueta</u>: Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector</li><br>
-                    <img src="https://lh6.googleusercontent.com/KFsGGp3h52_3j685POmIn7AVYq2h9VvmRKR0xpCO0rmV4fO2URFr7O1XOVDqdy3vJ7zS_CqYp2w1uuEVDza94LcxdtyyzVATA72ciX75GMR4aR6RRBa73sh1MokKFb54AStgbcc=s0" alt="selector de etiqueta">
+                    <li><span style="color: red"><u>Selector universal *</u></span>: Se utiliza para seleccionar todos
+                        los elementos de la página</li>
+                    <br>
+                    <img src="https://lh3.googleusercontent.com/JV8NDGgecEV50w3xFXMEwLGhUbiJXfnxM8bNNjoORCCY6X2iaCVI0ANWkJldX_tqvHdpTpl3h8zInMo_KwD7VAwnrycL_5LEKwphTQ3bHpUQ45e1NtMDG2h9coeOdUYLFBpgmYs=s0"
+                        alt="selector universal">
+
+                    <li><span style="color: red"><u>Selector de tipo o etiqueta </u></span>: Selecciona todos los
+                        elementos de la página cuya etiqueta
+                        HTML coincide con el valor del selector</li><br>
+                    <img src="https://lh6.googleusercontent.com/KFsGGp3h52_3j685POmIn7AVYq2h9VvmRKR0xpCO0rmV4fO2URFr7O1XOVDqdy3vJ7zS_CqYp2w1uuEVDza94LcxdtyyzVATA72ciX75GMR4aR6RRBa73sh1MokKFb54AStgbcc=s0"
+                        alt="selector de etiqueta">
+
+                    <li><span style="color: red"><u>Selector descendente </u></span>: Selecciona los elementos que se
+                        encuentran dentro de otros
+                        elementos. Un elemento es descendente de otro cuando se encuentra entre las etiquetas de
+                        apertura y de cierre de otro elemento. En el selector descendente, un elemento no tiene que ser
+                        descendiente directo del otro. La única condición es que un elemento debe estar dentro de otro
+                        elemento, sin importar el nivel de profundidad en el que se encuentre.</li><br>
+                    <img src="https://lh4.googleusercontent.com/GuvDewJijMRmhzzeHPb-8QWAHk-SQiCkkEkv1g8DgorwvcdJ6qiVZcXxnCujZ1Z9MbAogLoMhXlyeZN-5QFAYGAAqC5UAlCfPnJgGVYHjDH0tdXcSRZ4Lym7hUbRssVDgFUufak=s0"
+                        alt="Selector descendente">
+
+                    <li><span style="color: red"><u>Selector class</u></span>: La principal característica de este
+                        selector es que en una misma página HTML varios elementos diferentes pueden utilizar el mismo
+                        valor en el atributo class</li>
+                    <img src="https://lh4.googleusercontent.com/2KV0m1KoWJowAO9H1lqZPnFGQiYYOuszPl_eLrIvR1nOydpWEfbd8TAAvHdTI5c3iCnoYXe5IzerIkidlPt6h9PqbUzXjc12OyV7WYPm3oxH7o5knRzmUAgYX3zzLdlf0zpzyv4=s0"
+                        alt="selector class"><br>
+                    <img
+                        src="https://lh3.googleusercontent.com/Wd356zbRbw1Z-B3nAOkd1ZOGGuXTLayKqAzpgeEo7XiZ-pOPAUKZ1_Gg4fyuVTezhAosnGz7QUPD8RXS1ob0x3H1ufipjN_zVy5Z5V9KhZHlNQL7hk7gCHs3ET5hpQcOlg47Tb0=s0"><br>
+                    <p>Hay ciertas maneras de restringir el alcance del selector de clase:
+                    <ul>
+                        <li>Todos los elementos de tipo "p" con atributo class = "aviso" <b>p.aviso {...}</b></li>
+                        <li>Todos los elementos con atributo class = "aviso" que estén dentro de cualquier elemento de
+                            tipo "p" <b>p .aviso {...}</b></li>
+                        <li>Todos los elementos "p" de la página y todos los elementos con atributo class = "aviso" de
+                            la página <b>p, .aviso {...}</b> </li>
+                    </ul>
+                    <p>Para completar, es posible aplicar los estilos de varias clases CSS sobre un mismo elemento. La
+                        sintaxis es similar, pero los diferentes valores del atributo class se separan con espacios en
+                        blanco.</p><br>
+                    <img
+                        src="https://lh3.googleusercontent.com/FaM9p4RwLOuUkI1c-djB6nyEA2zcdBScQa4Y2BYGfMrMy3AaQH83J5rN_3p8nUHzhRD_5kGfO2m42dE7TOHrATo44a3MXFoYJvpuyGRalCwWHCHmNp9HDvqdPMasa4s1Q3h567A=s0">
+                    <img
+                        src="https://lh3.googleusercontent.com/TmFN9pAuG1u9k0gQFca8t97USc42bFLLefZJP-O7_yomr-YaKWdpXh09cZF4hZSdU3oR12x0deXfTeWdP8pTlNcLyM2Y8GozUNE9_oRy99k9u8pbqPiPD-qrNpAC_lXKqlwf72Q=s0">
+                    <img
+                        src="https://lh5.googleusercontent.com/Vh5dEZ7OLGTWIxnyPnOFverlUOlEY2KSTXLahjiEDpaKwWDoDNvxlpFxsfaYdAWWFcQNsB3lfqLaY0ieVFXn3e5GD-Zev5HckUAkUWTZLtY0ym_B53XPoYyrgpmluT71WslNQ-Y=s0">
+                    </p>
+
+                    <li><span style="color: red"><u>Selector ID</u></span>: El selector de ID permite seleccionar un
+                        elemento de la página a través del valor de su atributo id. Este tipo de selectores sólo
+                        selecciona un elemento de la página porque el valor del atributo id no se puede repetir en dos
+                        elementos diferentes de una misma página. Un selector de tipo ID sólo tiene sentido cuando el
+                        archivo CSS se aplica sobre muchas páginas HTML diferentes.</li><br>
+                    <img
+                        src="https://lh5.googleusercontent.com/16tF7ljYZZKx9_qljieEi90--o0VLYBP_ovKIFuNXDMoYpPLmwIeJ3q832W7ltmoYlBkx69F36VBovtgZ3zxwt9sWAT5vWW-tmEuU0uvFgHdGfSuiljNz2CAJZWAY_8-XeBrEj0=s0">
+                    <img
+                        src="https://lh6.googleusercontent.com/r8iilrw4vXYmmz1j5cxjMfrZ6XO7ScDhDJ9jWP-feJrDKXzdHNs-NW9FOiIYGi8zwjGR67u1d3WcAFqdAfBYuYL-ngs-xgiy-hUBESYWfrOn_TB_gh4MAnXa6BogLv_-GU0bMdM=s0"><br>
+                    <p>Al igual que los selectores de clase, en este caso también podemos restringir el alcance del
+                        selector mediante la combinación con otros selectores. El siguiente ejemplo aplica la regla CSS
+                        solamente al elemento de tipo
+                    <p> que tenga un atributo id igual al indicado:</p>
+                    <img
+                        src="https://lh5.googleusercontent.com/lRiul4YqQ04VoPqSgltZEat1gWeo8ZNUgLQnHCJMSi1iHvNDQKpd0QU_Sdi-Ta0T5GpR7EJ5PX7lQvPsTYG0QH6t0wDWuQMnX251MGCGV3G9wVMMNNOcfhQX0Gs2_ng9-NnnNN8=s0">
+                    <ul>
+                        <li>Todos los elementos de tipo "p" con atributo id = "aviso" <b>p # aviso {...}</b></li>
+                        <li>Todos los elementos con atributo id = "aviso" que estén dentro de cualquier elemento de tipo
+                            "p" <b>p #aviso {...}</b></li>
+                        <li>Todos los elementos "p" de la página y todos los elementos con atributo id = "aviso" de la
+                            página <b>p, #aviso {...}</b></li>
+                    </ul><br>
+
+                    <li><span style="color:red"><u>Selectores avanzados</u></span>: Se trata de un selector similar al
+                        selector descendente, pero muy diferente en su funcionamiento. Se utiliza para seleccionar un
+                        elemento que es hijo directo de otro elemento y se indica mediante el "signo de mayor que" (>):
+                    </li>
+                    <img
+                        src="https://lh3.googleusercontent.com/EU6K4dHO5NGSeEskB8_9EjqLuin-gXfRcC-1aKW_hMflhXb1_3Jba6lJoqkSVz8Zn-LY6_U5cRps1sxCHsIF6I-rgRSeZ3ccYMF6ZrDsVzD1EPeGkVqIKRNQYq1zcMc25EN-wxE=s0">
+                    <img
+                        src="https://lh3.googleusercontent.com/ttr5VWGGbnC7MnqKihfwLqEbzegzS4NGAqSDCNkOmCnEOob7ZTZ9ynxm7nC0kYnHIUI4fGyOWoW3XoVWzE_XcyVzHzZ3WVO-DqrIxMv5INo5tgPWCwNzHzCVho3-fmIhNSnZVu0=s0"><br>
+                    <p>En el ejemplo anterior, el selector p > span se interpreta como "cualquier elemento &lt;span&gt; que sea
+                            hijo directo de un elemento &lt;p&gt;", por lo que el primer elemento &lt;span&gt; cumple la condición
+                                    del selector. Sin embargo, el segundo elemento &lt;span&gt; no la cumple porque es
+                                        descendiente pero no es hijo directo de un elemento &lt;p&gt;.</p><br>
+                    <p>El siguiente ejemplo muestra las diferencias entre el selector descendente y el selector de hijos:</p>
+                    <img src="https://lh5.googleusercontent.com/M3DeY9cibRTaCX6AgTyX_TRgUUzPCxSER7kFyW00-al1mQ257tzG_MTvA3nc3l-apoHO69FmOy1ZRKpCB24wuSwUqO8Ks-pCjdmSO4AvmjGocXssxi4-0i4QY7xgLMTPiyRkHxc=s0">
+                    <img src="https://lh5.googleusercontent.com/Ub4MUJkgVb3w7yRfwPW7Y2l7z3HQ7NOIYIa6oht31xEyKdjdxK-B75XFOsWvlaom1ZyQvJ_VSzaqX3NrhGtIf7Y8oHKkLhEuE4bsV7MA3zZjJGEq4-HqZ2jBt4PkxXImtGESv1s=s0"><br>
+                    <p>El primer selector es de tipo descendente y por tanto se aplica a todos los elementos &lt;a&gt; que se encuentran dentro de los elementos &lt;p&gt;. En este caso, los estilos de este selector aplican se a los dos enlaces.
+
+                        Por otra parte, el selector de hijos obliga a que el elemento &lt;a&gt; sea hijo directo de un elemento &lt;p&gt;. Por lo tanto, los estilos del selector p> a no se aplican al segundo enlace del ejemplo anterior.</p>
                 </ul>
 
             </div>
@@ -68,6 +163,10 @@
             </ul>
         </article>
     </section>
-    
+    <footer>
+        <h3>Fuente: <a href=https://argentinaprograma.inti.gob.ar/mod/page/view.php?id=679&forceview=1>teórico de #ArgentinaPrograma:</a></h3>
+    </footer>
+
 </body>
+
 </html>
